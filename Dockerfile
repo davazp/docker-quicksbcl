@@ -1,4 +1,4 @@
-FROM davazp/sbcl:1.2.3
+FROM davazp/sbcl:1.2.9
 MAINTAINER David Vázquez <davazp@gmail.com>
 
 ENV HOME /root
