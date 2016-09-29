@@ -6,3 +6,7 @@
 
 (with-open-file (out "/root/.sbclrc" :direction :output)
   (format out "(load \"/root/quicklisp\/setup.lisp\")"))
+
+(ql:update-client :prompt nil)
+(ql:update-dist "quicklisp" :prompt nil)
+
